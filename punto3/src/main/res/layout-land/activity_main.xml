@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/equiz"
+                android:textSize="20dp"
+              
+                android:inputType="text"
+                android:layout_gravity="center_vertical"
+
+
+
+                />
+
+
+
+            </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           >
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="@string/nota"
+               android:textSize="20dp"
+               android:id="@+id/eQuiz"
+               android:inputType="numberDecimal"
+               android:layout_gravity="center_vertical"
+                />
+
+           </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/eexpo"
+               android:textSize="20dp"
+               android:inputType="text"
+               android:layout_gravity="center_vertical"
+
+
+               />
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/nota"
+                android:textSize="20dp"
+                android:id="@+id/eExpo"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center_vertical"
+
+
+                />
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elab"
+            android:textSize="20dp"
+
+            android:inputType="text"
+            android:layout_gravity="center_vertical"
+
+
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota"
+            android:textSize="20dp"
+            android:id="@+id/eLab"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eproy"
+            android:textSize="20dp"
+
+            android:inputType="text"
+            android:layout_gravity="center_vertical"
+
+
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota"
+            android:textSize="20dp"
+            android:id="@+id/eProy"
+            android:inputType="numberDecimal"
+           android:layout_gravity="center_vertical"
+
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+       >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bot"
+            android:id="@+id/tBoton"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:onClick="Calcular"/>
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/defi"
+            android:textSize="20dp"
+
+            android:inputType="text"
+
+
+
+
+
+            />
+
+        <TextView
+
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/tResult"
+            android:inputType="numberDecimal"
+            android:hint="0.00"
+
+
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

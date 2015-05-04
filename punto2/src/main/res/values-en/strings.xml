@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Punto2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="tTitle">CALCULATOR</string>
+    <string name="eNum1">Input number 1</string>
+    <string name="eNum2">Input number 2</string>
+    <string name="tSuma">Addition</string>
+    <string name="tResta">Substraction</string>
+    <string name="tMultiplicacion">Multiplication</string>
+    <string name="tDivision">Divition</string>
+    <string name="bCalcular">CALCULATE</string>
+    <string name="tAviso">Application that allows compute the four basic operations (addition, substraction, multiplication y divition)  </string>
+    <string name="tAviso2">Developed by: Santiago Londoño Jiménez</string>
+    <string name="tAbout">About </string>
+    <string name="title_activity_activity_about">About</string>
+
+</resources>

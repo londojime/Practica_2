@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<resources>
+
+
+    <string name="app_name">Punto5</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="deporte">Sports</string>
+    <string name="musica">Music</string>
+    <string name="literatura">Literature</string>
+    <string name="investigacion">Investigation</string>
+    <string name="bailar">Dance</string>
+    <string name="otro">Other</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dignombre">Input name</string>
+    <string name="tnombre">Name</string>
+    <string name="digcorreo">Input mail</string>
+    <string name="tcorreo">Mail</string>
+    <string name="digtel">Input phone</string>
+    <string name="ttel">Phone</string>
+    <string name="ok">OK</string>
+    <string name="thobbies">Hobbies</string>
+    <string name="tsexo">Sex</string>
+    <string name="tciudad">City</string>
+    <string name="tefecha">Date of birth</string>
+    <string name="tAviso">Form</string>
+    <string name="tAviso2">Developed by: Santiago Londoño Jiménez</string>
+    <string name="tAbout">About</string>
+    <string name="title_activity_activity_about">About</string>
+
+
+    <string name="country_prompt">Choose a city</string>
+
+    <string-array name="ciudades">
+        <item>Select city</item>
+        <item>Barranquilla</item>
+        <item>Bucaramanga</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Cartagena</item>
+        <item>Cucuta</item>
+        <item>Ibague</item>
+        <item>Medellin</item>
+
+
+    </string-array>
+</resources>

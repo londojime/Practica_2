@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Punto4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="about">About</string>
+    <string name="rCuadro">Square</string>
+    <string name="rRectangulo">Rectangle</string>
+    <string name="rTriangulo">Triangle</string>
+    <string name="rCirculo">Circle</string>
+    <string name="tArea">Area: </string>
+    <string name="bcalcular">CALCULATE AREA</string>
+    <string name="tTitle">SELECT FIGURE</string>
+
+    <string name="tAviso">Application that allows calculate the area of some geometric figures</string>
+    <string name="tAviso2">Developed by: Santiago Londoño Jiménez</string>
+    <string name="tAbout">About</string>
+    <string name="title_activity_activity_about">About</string>
+
+</resources>

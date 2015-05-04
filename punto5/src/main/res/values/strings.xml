@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Punto5</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="deporte">Deporte</string>
+    <string name="musica">Música</string>
+    <string name="literatura">Literatura</string>
+    <string name="investigacion">Investigación</string>
+    <string name="bailar">Bailar</string>
+    <string name="otro">Otro</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="dignombre">Digite el nombre</string>
+    <string name="tnombre">Nombre</string>
+    <string name="digcorreo">Digite el correo</string>
+    <string name="tcorreo">Correo</string>
+    <string name="digtel">Digite el telefono</string>
+    <string name="ttel">Telefono</string>
+    <string name="ok">OK</string>
+    <string name="thobbies">Hobbies</string>
+    <string name="tsexo">Sexo</string>
+    <string name="tciudad">Ciudad</string>
+    <string name="tefecha">Fecha de nacimiento</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="ciudades">
+        <item>Seleccione ciudad</item>
+        <item>Barranquilla</item>
+        <item>Bucaramanga</item>
+        <item>Bogota</item>
+        <item>Cali</item>
+        <item>Cartagena</item>
+        <item>Cucuta</item>
+        <item>Ibague</item>
+        <item>Medellin</item>
+
+
+    </string-array>
+
+    <string name="tAviso">Formulario </string>
+    <string name="tAviso2">Desarrollado por: Santiago Londoño Jiménez</string>
+    <string name="tAbout">Acerca de </string>
+    <string name="title_activity_activity_about">Acerca de</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

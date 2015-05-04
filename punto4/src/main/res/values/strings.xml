@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Punto4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="about">Acerca de</string>
+    <string name="rCuadro">Cuadro</string>
+    <string name="rRectangulo">Rectangulo</string>
+    <string name="rTriangulo">Triangulo</string>
+    <string name="rCirculo">Circulo</string>
+    <string name="tArea">Area: </string>
+    <string name="bcalcular">CALCULAR AREA</string>
+    <string name="tTitle">SELECCIONE FIGURA</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tAviso">Aplicación para calcular el área de algunas figuras geométricas  </string>
+    <string name="tAviso2">Desarrollada por: Santiago Londoño Jiménez</string>
+    <string name="tAbout">Acerca de </string>
+    <string name="title_activity_activity_about">Acerca de</string>
+
+</resources>

@@ -1,0 +1,323 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+
+                android:layout_marginTop="7dp"
+                android:layout_width="65dp "
+                android:layout_height="match_parent"
+                android:text="@string/tnombre"
+                android:id="@+id/tname"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+
+            >
+
+            <EditText
+                android:layout_width="180dp "
+                android:layout_height="wrap_content"
+                android:hint="@string/dignombre"
+                android:inputType="text"
+                android:id="@+id/eNombre"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="65dp "
+                android:layout_height="match_parent"
+                android:text="@string/tcorreo"
+                android:layout_marginTop="7dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <EditText
+                android:layout_width="180dp "
+                android:layout_height="wrap_content"
+                android:hint="@string/digcorreo"
+                android:inputType="textEmailAddress"
+                android:id="@+id/eCorreo"
+                android:textSize="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="65dp "
+                android:layout_height="match_parent"
+                android:text="@string/ttel"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <EditText
+                android:layout_width="180dp "
+                android:layout_height="wrap_content"
+                android:hint="@string/digtel"
+                android:inputType="phone"
+                android:id="@+id/eTel"
+                android:textSize="10dp"/>
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female"
+                    android:id="@+id/rFemale"
+                    android:onClick="Operacion"
+
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:id="@+id/rMale"
+                    android:onClick="Operacion"
+
+                    />
+            </RadioGroup>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ciudades"
+                android:prompt="@string/country_prompt" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deporte"
+            android:id="@+id/cdeporte"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/musica"
+            android:id="@+id/cmusica"
+
+            />
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bailar"
+            android:id="@+id/cbailar"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otro"
+            android:id="@+id/cotro"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tefecha"
+            android:id="@+id/bDate"
+            android:onClick="Fijar"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/tnombre"
+                android:id="@+id/tNombre"
+                />
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/ttel"
+                android:id="@+id/tTel"
+
+                />
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/tcorreo"
+                android:id="@+id/tCorreo"
+                />
+
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:id="@+id/tHobbies"
+                android:text="@string/thobbies"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/tsexo"
+                android:id="@+id/tsex"
+                />
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/tciudad"
+                android:id="@+id/tcity"
+                />
+            <TextView
+                android:layout_width="500dp "
+                android:layout_height="wrap_content"
+                android:text="@string/tefecha"
+                android:id="@+id/tfecha"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:onClick="Listo"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

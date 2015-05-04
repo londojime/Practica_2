@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Punto2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="tTitle">CALCULADORA</string>
+    <string name="eNum1">Ingrese número 1</string>
+    <string name="eNum2">Ingrese número 2</string>
+    <string name="tSuma">Suma</string>
+    <string name="tResta">Resta</string>
+    <string name="tMultiplicacion">Multiplicación</string>
+    <string name="tDivision">División</string>
+    <string name="bCalcular">CALCULAR</string>
+    <string name="tAviso">Aplicación que permite realizar las cuatro operaciones básicas (suma, resta, multiplicación y división)  </string>
+    <string name="tAviso2">Desarrollada por: Santiago Londoño Jiménez</string>
+    <string name="tAbout">Acerca de </string>
+    <string name="title_activity_activity_about">Acerca de</string>
+
+
+
+
+
+
+
+</resources>

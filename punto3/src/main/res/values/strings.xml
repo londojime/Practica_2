@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Punto3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nota">Nota</string>
+    <string name="porcent">Porcentaje</string>
+    <string name="equiz">Quiz</string>
+    <string name="eexpo">Exposición</string>
+    <string name="elab">Laboratorio</string>
+    <string name="eproy">Proyecto</string>
+    <string name="bot">Calcular</string>
+    <string name="defi">Definitiva: </string>
+
+
+
+    <string name="tAviso">Aplicación para calcular notas  </string>
+    <string name="tAviso2">Desarrollada por: Santiago Londoño Jiménez</string>
+    <string name="tAbout">Acerca de </string>
+    <string name="title_activity_activity_about">Acerca de</string>
+
+
+</resources>
